@@ -1,5 +1,5 @@
 # Lists are used to store MULTIPLE items in a singular variable.
-#Think of a container that can hold many items.
+# Think of a container that can hold many items.
 # Lists are written within square brackets. []
 
 my_list = [10, 20, 30, 40, 50]
@@ -13,7 +13,7 @@ print(mixed_list)
 # (Indexing starts at 0.)
 
 fruits = ["apple", "banana", "cherry"]
-print(fruits[0]) # Fist item: apple.
+print(fruits[0]) # First item: apple.
 print(fruits[2]) #last item: cherry.
 
 # You can also use a NEGATIVE index to count from the end.
@@ -24,10 +24,10 @@ fruits[1] = "mango" # We changed banana to mango.
 print(fruits)
 
 # Adding items:
-fruits.append("orange")
+fruits.append("orange") # This adds an item to the end of the list.
 print(fruits)
 
-fruits.insert(1, "kiwi")
+fruits.insert(1, "kiwi") # This adds an item at index 1.
 print(fruits)
 
 # Removing items:
@@ -39,12 +39,13 @@ print(fruits)
 
 # Looping through a list:
 for fruit in fruits:
-    print(fruit)
+    print(fruit) # This prints out each and all items in the list named "fruits."
 
 # Check if item exists:
 if "mango" in fruits:
     print("yes, mango is in the list.")
-
+else:
+    print("No, mango is not in the list.")
 # List Length:
 print(len(fruits)) # Number of items in list.
 
@@ -67,7 +68,7 @@ activities.append("Teach the Skill") # Add item at the end of the list.
 # Printing the list and its length.
 print(f"The Activities list: {activities} has a length of {len(activities)} items.")
 
-
+#Note: I personally found lists to be more practical/useful.
 
 
 

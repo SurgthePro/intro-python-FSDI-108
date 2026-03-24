@@ -95,3 +95,5 @@ print(activity)
 
 # Printing the dictionary and its length:
 print(f"Activities dictionary: {activity} has a length of: {len(activity)} activities altogether.")
+
+# Note: I personally found dictionaries to be somewhat practical/applicable/useful.
